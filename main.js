@@ -85,7 +85,7 @@ eraser.onclick = function(){
 clear.onclick = function(){
     ctx.clearRect(0,0,canvas.width,canvas.height)
 }
-save.onclick = function(){
+save.onclick = function(){                   //下载保存功能
     var url = canvas.toDataURL("img/png")
     var a = document.createElement('a')
     document.body.appendChild(a)
